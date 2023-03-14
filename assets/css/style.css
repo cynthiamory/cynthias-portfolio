@@ -1,0 +1,240 @@
+/* css reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* this is my css variables */
+:root {
+    --white: #ffffff;
+    --lightgrey: #919191;
+    --gold: #B5975A;
+    --darkblue: #022639;
+}
+
+/* general body styling */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--white);
+    background-color: var(--lightgrey);
+}
+
+/* header section */
+header div {
+    box-shadow: 10px 3px 5px rgba(52, 52, 130, 0.536)
+}
+
+header {
+    background-color: var(--white);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+header h1 {
+    color: var(--gold);
+    font-size: 40px;
+    font-weight: bold;
+    background-color: var(--white);
+    padding: 10px;
+    border: 5px solid var(--gold);
+}
+
+header a {
+    text-decoration: none;
+    color: var(--gold);
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+}
+
+header nav {
+    margin: 20px;
+}
+
+
+header nav ul li a {
+    padding: 8px;
+    font-size: 28px;
+    margin: 20px 20px 0 0;
+    font-style: italic;
+    background-color: var(--white);
+    padding: 10px;
+    border: 5px solid var(--gold);
+}
+
+header nav ul li a:hover {
+    background: var(--gold);
+    color: var(--white);
+    border-radius: 1px;
+}
+
+/* hero styling start */
+.hero {
+    background-color: var(--darkblue);
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/* my profile photo*/
+.hero img {
+    height: 400px;
+}
+
+.hero .quote #moto {
+    display: flex;
+    justify-content: center;
+    text-align: right;
+    color: rgb(62, 115, 141);
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* line breaks between name and content */
+.name {
+    border-right: 5px solid var(--gold);
+    min-height: 100%;
+    text-align: right;
+    padding-right: 30px;
+    min-width: 20%;
+    max-width: 20%;
+}
+
+.name h2 {
+    font-style: italic;
+    font-size: 30px;
+}
+
+/* about me section styling start */
+.about {
+    display: flex;
+    align-items: stretch;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.about p {
+    font-size: 20px;
+    padding: 0 30px;
+    line-height: 1.5;
+    width: auto;
+}
+
+/* my work section styling start */
+.work {
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--white);
+}
+
+.work h2 {
+    color: var(--lightgrey);
+}
+
+/* portfolio boxes */
+.box-images {
+    width: 900%;
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+}
+
+.boxes {
+    width: 70%;
+    gap: 20px;
+    display: grid;
+}
+
+
+.grid-hq {
+    grid-column: 1/3;
+    grid-row: span 2;
+    background-image: url("/assets/Images/grid-pic.png");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.nu-life {
+    background-image: url("/assets/Images/nulife-pic.png");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.master-refactor {
+    background-image: url("/assets/Images/masterrefactor.png");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.realtor-site {
+    background-image: url("/assets/Images/jon-g-web.png");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.z5-courts {
+    background-image: url("/assets/Images/Z5courts.png");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+/* title headings and sub-heading for my boxes */
+.work-source {
+    background-color: var(--darkblue);
+    color: var(--white);
+    padding: 10px;
+}
+.work-source p {
+    color: var(--gold);
+
+}
+/* footer section containing my contact and social links */
+footer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 30px;
+    margin-bottom: 30px;
+}
+
+.contact {
+    width: 60%;
+}
+
+/* list styling */
+footer ul {
+    list-style: none;
+    display: inline-flex;
+}
+
+/* icon styling */
+footer ul li a img {
+        height: 64px;
+        max-width: 100%;
+        padding: 8px;
+        align-content: center;
+        justify-content: space-evenly;
+      }
