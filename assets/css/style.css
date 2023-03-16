@@ -164,7 +164,7 @@ header nav ul li a:hover {
 .grid-hq {
     grid-column: 1/3;
     grid-row: span 2;
-    background-image: url("assets/images/grid-pic.png");
+    background-image: url("https://www.gridhq.ca/wp-content/uploads/2018/07/grid-service-hero.png");
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -172,7 +172,7 @@ header nav ul li a:hover {
 }
 
 .nu-life {
-    background-image: url("assets/images/nulife-pic.png");
+    background-image: url("https://nulifewellness.ca/wp-content/uploads/2018/12/home-head-2.png");
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -180,7 +180,7 @@ header nav ul li a:hover {
 }
 
 .master-refactor {
-    background-image: url("assets/images/masterrefactor.png");
+    background-image: url("https://cynthiamory.github.io/cynthias-master-refactor/assets/images/digital-marketing-meeting.jpg");
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -188,7 +188,7 @@ header nav ul li a:hover {
 }
 
 .realtor-site {
-    background-image: url("assets/images/jon-g-web.png");
+    background-image: url("https://jonathangorenstein.com/wp-content/uploads/2022/12/HOME-page-banner-pic-1024x683.jpg");
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -196,7 +196,7 @@ header nav ul li a:hover {
 }
 
 .z5-courts {
-    background-image: url("assets/images/Z5courts.png");
+    background-image: url("https://z5courts.com/wp-content/uploads/2021/02/ABOUT-badminton-p44-980x653.jpg");
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
