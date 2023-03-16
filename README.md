@@ -27,7 +27,7 @@ All webpages and websites are using an external image link which will open each 
 N/A
 
 ## Images
-![Website Preview Image](/assets/images/cynthias-portfolio-image-mockup.png)
+![Website Preview Image](./assets/images/cynthias-portfolio-image-mockup.png)
 
 ## Technologies Used
 
@@ -47,7 +47,7 @@ Assignment was built with:
 
 
 ## Link URL to deployed webpage on GitHub
-https://cynthiamory.github.io/cynthias-portfolio
+https://cynthiamory.github.io/cynthias-portfolio/
 
 ## License
 

@@ -172,7 +172,7 @@ header nav ul li a:hover {
 }
 
 .nu-life {
-    background-image: url("/assets/Images/nulife-pic.png");
+    background-image: url("./assets/images/nulife-pic.png");
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -180,7 +180,7 @@ header nav ul li a:hover {
 }
 
 .master-refactor {
-    background-image: url("/assets/Images/masterrefactor.png");
+    background-image: url("./assets/images/masterrefactor.png");
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -188,7 +188,7 @@ header nav ul li a:hover {
 }
 
 .realtor-site {
-    background-image: url("/assets/Images/jon-g-web.png");
+    background-image: url("./assets/images/jon-g-web.png");
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -196,7 +196,7 @@ header nav ul li a:hover {
 }
 
 .z5-courts {
-    background-image: url("/assets/Images/Z5courts.png");
+    background-image: url("./assets/images/Z5courts.png");
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
