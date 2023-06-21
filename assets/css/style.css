@@ -189,8 +189,8 @@ header nav ul li a:hover {
     background-size: cover;
 }
 
-.realtor-site {
-    background-image: url("./assets/images/rentix.png");
+.Rentix {
+    background-image: url("../images/");
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
