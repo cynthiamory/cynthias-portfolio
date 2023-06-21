@@ -27,7 +27,7 @@ All webpages and websites are using an external image link which will open each 
 N/A
 
 ## Images
-![Website Preview Image](./assets/images/portfolio-preview-2.png)
+![Website Preview Image](./assets/images/portfolio-preview-3.png)
 
 ## Technologies Used
 
